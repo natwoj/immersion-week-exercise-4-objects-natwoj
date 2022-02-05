@@ -1,3 +1,11 @@
-module.exports = function hasValue() {
-  // TODO Implement me.
-};
+/* module.exports = */
+
+function hasValue (obj, value) {
+
+  if (Object.values(obj).includes(value)) {
+   return true;
+}
+  else {
+    return false;
+}
+}
