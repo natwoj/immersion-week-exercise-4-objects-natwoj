@@ -1,4 +1,4 @@
-module.exports = function rmCensored() {
+module.exports =
   function rmCensored (obj) {
     for (let [key, value] of Object.entries(obj)) {
       if (key.includes("*") || value.includes("*")) {
