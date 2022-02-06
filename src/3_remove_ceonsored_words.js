@@ -11,5 +11,3 @@ module.exports = function rmCensored() {
     const veggies = {"potato": "starch", "spin*ch": "green", "collard": "green", "tomato": "fr*it"}
     rmCensored(veggies)
     console.log(veggies) // { potato: 'starch', collard: 'green' } 
-  
-};
